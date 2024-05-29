@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "defaultDestination": "wwwroot/js/libs/",
+  "libraries": [
+    {
+      "library": "@ffmpeg/ffmpeg@latest",
+      "destination": "wwwroot/js/libs/ffmpeg/main",
+      "files": [ "dist/esm/*" ]
+    },
+    {
+      "library": "@ffmpeg/util@latest",
+      "destination": "wwwroot/js/libs/ffmpeg/util/",
+      "files": [ "dist/esm/*" ]
+    },
+    {
+      "library": "@ffmpeg/core@latest",
+      "destination": "wwwroot/js/libs/ffmpeg/core/",
+      "files": [ "dist/esm/*" ]
+    }
+  ]
+}
